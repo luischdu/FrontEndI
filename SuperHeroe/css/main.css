@@ -53,7 +53,7 @@ article p {
     border-radius: 15px 15px 0 0;
     margin: 30px auto;
     max-width: 525px;
-    height: 600px;
+    height: auto;
 
 }
 
@@ -167,14 +167,18 @@ footer {
 
 footer p {
     text-align: center;
-    font-size: 1em;
+    font-size: 1,2em;
     width: 40vw;
     margin: auto;
 }
 
 .img-GitHub {
-    height: 2em;
-    width: auto;
-    position: absolute;
-    right: 5%;
+   background-image: url('/img/github.png');
+   background-repeat: no-repeat;
+   background-size: contain;
+   position:absolute;
+   height: 40px;
+   width: 90px;
+   right: 2em;
+   
 }
