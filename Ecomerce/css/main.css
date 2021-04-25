@@ -234,10 +234,10 @@ footer p {
 /* contact */
 
 .contact {
+    display: inline-block;
     border-radius: 25%;
-    margin: 0 auto;
+    margin: 40px;
     margin-left: 100px;
-    width: 400px;
     padding: 20px;
     font-family: 'Inter', sans-serif;
 
@@ -256,6 +256,12 @@ footer p {
 .contact input {
     margin: 6px;
     height: 50px;
+    width: 500px;
+    font-size: 18px;
+}
+
+.contact textarea {
+    margin: 6px;
     width: 500px;
     font-size: 18px;
 }
